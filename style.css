@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(#ff6b6b, #ff6b6b, #4ecdc4);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#taskTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#taskTable th,
+#taskTable td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+#taskTable th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#taskTable td:last-child {
+    text-align: center;
+}
+
+#taskTable td button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#taskTable td button:hover {
+    background-color: #f5f5f5;
+}
+
+#taskTable td button:last-child {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+#taskTable td button:last-child:hover,
+#taskTable td button:last-child:active,
+#taskTable td button:last-child:focus,
+#taskTable td button:last-child:active:focus,
+#taskTable td button:last-child:active:focus:hover {
+    background-color: #ff4f4f;
+}
